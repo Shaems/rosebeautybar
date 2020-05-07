@@ -4,13 +4,11 @@ import logo from './logo.svg';
 import './css/bootstrap.css';
 import './fonts/font-awesome/css/font-awesome.css';
 import './App.css';
-import './img/about.jpg'
+import imgabout from './img/pestaña.jpg'
 
 function App() {
   return (
     <div>
-
-        <title>Rose BeautyBar</title>
         
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
@@ -33,10 +31,10 @@ function App() {
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#about" class="page-scroll">Workshop</a></li>
                 <li><a href="#services" class="page-scroll">Contenido</a></li>
-                <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-                <li><a href="#testimonials" class="page-scroll">Testimonials</a></li>
+                <li><a href="#portfolio" class="page-scroll">Sé una profesional</a></li>
+                <li><a href="#testimonials" class="page-scroll">Asesoría Online</a></li>
                 <li><a href="#team" class="page-scroll">Certificación</a></li>
                 <li><a href="#contact" class="page-scroll">Contacto</a></li>
               </ul>
@@ -66,31 +64,35 @@ function App() {
         <div id="about">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-6"> <img src="./img/about.jpg" class="img-responsive" alt=""/> </div>
+              <div class="col-xs-12 col-md-6"> <img src={imgabout} class="img-responsive" alt=""/> </div>
               <div class="col-xs-12 col-md-6">
                 <div class="about-text">
                   <h2>Workshop Online</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p>El lifting de Pestañas es un tratamiento que alarga y crea una ligera curva hacia arriba de manera natural y duradera consiguiendo mayor longitud y espesor, logrando una mirada con mucho más realce. En este workshop vas a aprender a realizar un lifting perfecto y como comenzar tu negocio.</p>
                   <h3>¿Qué incluye este curso?</h3>
                   <div class="list-style">
-                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="col-xs-12">
                       <ul>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Tempor incididunt</li>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Incididunt ut labore</li>
+                        <li>Teoría de las pestañas</li>
+                        <li>Técnica Lash Lifting profesional</li>
+                        <li>Tinte efecto rimmel</li>
+                        <li>Arma tu nogocio! - Marketing</li>
+                        <li>Certificación</li>
+                        <li>Acceso ilimitado al curso</li>
+                        <li>Asesoría por 1 año</li>
                       </ul>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-xs-12">
-                      <ul>
-                        <li>Aliquip ex ea commodo</li>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Exercitation ullamco</li>
-                        <li>Lorem ipsum dolor</li>
-                      </ul>
+                      <div id="precioWork">
+                        <p>
+                          <span class="h2"><del>$5.000</del></span>
+                          <span class="h2"> <sub>$2.500 ARS</sub></span>
+                        </p> 
+                        <p>Hasta 3 cuotas sin interés</p>
+                      </div>
+                      <a href="#features" class="btn btn-custom btn-lg page-scroll" style={{paddingleft: 200 }}>¡Unirme al workshop!</a>
                     </div>
                   </div>
                 </div>
+        
               </div>
             </div>
           </div>
@@ -100,45 +102,45 @@ function App() {
           <div class="container">
             <div class="section-title">
               <h2>Contenido</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+              <p>Vas a conocer el proceso y herramientas para realizar un lifting mega profesional.</p>
             </div>
             <div class="row">
-              <div class="col-md-4"> <i class="fa fa-wordpress"></i>
+              <div class="col-md-4"> <i class="fa fa-eye"></i>
                 <div class="service-desc">
-                  <h3>Lorem ipsum dolor</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                  <h3>Pestañas</h3>
+                  <p>¿Qué son las pestañas? - ¿Cuántas pestañas tenemos? - Ciclo de crecimiento - Cuidados básicos - Consejos para su cuidado.</p>
                 </div>
               </div>
-              <div class="col-md-4"> <i class="fa fa-cart-arrow-down"></i>
+              <div class="col-md-4"> <i class="fa fa-bookmark"></i>
                 <div class="service-desc">
-                  <h3>Consectetur adipiscing</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h3>Buenas prácticas</h3>
+                  <p>Higiene del lugar de trabajo - Cuidados personales - Cuidados con la clienta.</p>
                 </div>
               </div>
-              <div class="col-md-4"> <i class="fa fa-cloud-download"></i>
+              <div class="col-md-4"> <i class="fa fa-diamond"></i>
                 <div class="service-desc">
-                  <h3>Lorem ipsum dolor</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                  <h3>Técnica lifting profesional</h3>
+                  <p>Paso a paso! - Tips para lograr un acabado perfecto - Materiales y elementos necesarios</p>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-4"> <i class="fa fa-language"></i>
+              <div class="col-md-4"> <i class="fa fa-check"></i>
                 <div class="service-desc">
-                  <h3>Consectetur adipiscing</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                  <h3>Extras</h3>
+                  <p>Beneficios del lifting - Consejos para su larga duración - Errores a evitar - Marcas de productos recomendados</p>
                 </div>
               </div>
-              <div class="col-md-4"> <i class="fa fa-plane"></i>
+              <div class="col-md-4"> <i class="fa fa-comments-o"></i>
                 <div class="service-desc">
-                  <h3>Lorem ipsum dolor</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                  <h3>Marketing</h3>
+                  <p>Arma tu negocio - Conseguir clientas y fidelizarlas - Precios y como lograr mayores ganancias - Genera ingresos extras o vivi de ello!</p>
                 </div>
               </div>
-              <div class="col-md-4"> <i class="fa fa-pie-chart"></i>
+              <div class="col-md-4"> <i class="fa fa-bullhorn"></i>
                 <div class="service-desc">
-                  <h3>Consectetur adipiscing</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                  <h3>Asesoria</h3>
+                  <p>Asesoramiento 1 año gratis! -Dudas procedimiento - Acceso ilimitado al curso - Potencia y mejora tu emprendimiento - Ideas.</p>
                 </div>
               </div>
             </div>
@@ -148,14 +150,14 @@ function App() {
         <div id="portfolio" class="text-center">
           <div class="container">
             <div class="section-title">
-              <h2>Gallery</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+              <h2>Sé una profesional</h2>
+              <p>La estética es un negocio que si se trabaja bien es muy rentable, aunque parezca que hay miles de lugares y ya no se necesitan más, recorda que si te capacitas bien en lo que haces vas a lograr resartar tu trabajo y que te elijan por lo bien que lo haces. ÉXITO ASEGURADO.</p>
             </div>
             <div class="row">
               <div class="portfolio-items">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                   <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+                    <div class="hover-bg"> <a href=".img/about.jpg" title="Project Title" data-lightbox-gallery="gallery1">
                       <div class="hover-text">
                         <h4>Lorem Ipsum</h4>
                       </div>
@@ -242,64 +244,8 @@ function App() {
         <div id="testimonials">
           <div class="container">
             <div class="section-title text-center">
-              <h2>What our clients say</h2>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/01.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                    <div class="testimonial-meta"> - John Doe </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/02.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-                    <div class="testimonial-meta"> - Johnathan Doe </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/03.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                    <div class="testimonial-meta"> - John Doe </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row"> </div>
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/04.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                    <div class="testimonial-meta"> - Johnathan Doe </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/05.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                    <div class="testimonial-meta"> - John Doe </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="testimonial">
-                  <div class="testimonial-image"> <img src="img/testimonials/06.jpg" alt=""/> </div>
-                  <div class="testimonial-content">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-                    <div class="testimonial-meta"> - Johnathan Doe </div>
-                  </div>
-                </div>
-              </div>
+              <h2>Asesoría Online</h2>
+              <p>¿En que consiste? Por un año vas a poder cominicarte para lo que necesites. Si te surgieron dudas sobre el procediminto de lifting, además de tener los videos para que los veas las veces que quieras, vas a poder consultarlo directamente con una profesional. También te vamos a ayudar a potenciar y mejorar tu negocio si te sentis estancada, no se te ocurren ideas y demás :)</p>
             </div>
           </div>
         </div>
@@ -307,42 +253,8 @@ function App() {
         <div id="team" class="text-center">
           <div class="container">
             <div class="col-md-8 col-md-offset-2 section-title">
-              <h2>Meet the Team</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-            </div>
-            <div id="row">
-              <div class="col-md-3 col-sm-6 team">
-                <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="team-img"/>
-                  <div class="caption">
-                    <h4>John Doe</h4>
-                    <p>Director</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 team">
-                <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="team-img"/>
-                  <div class="caption">
-                    <h4>Mike Doe</h4>
-                    <p>Senior Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 team">
-                <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="team-img"/>
-                  <div class="caption">
-                    <h4>Jane Doe</h4>
-                    <p>Senior Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 team">
-                <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="team-img"/>
-                  <div class="caption">
-                    <h4>Karen Doe</h4>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
+              <h2>Certificación</h2>
+              <p>Para obtener tu certificación online deberás mandar video del procedimiento realizado + fotos del antes y el después. Sino tenes la opción  de certificación presencial, terminada la cuarentena se realizara la demostración en el local.</p>
             </div>
           </div>
         </div>
@@ -352,8 +264,8 @@ function App() {
             <div class="col-md-8">
               <div class="row">
                 <div class="section-title">
-                  <h2>Get In Touch</h2>
-                  <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+                  <h2>¡Contactanos!</h2>
+                  <p>Escribinos para recibir más información sobre este workshop</p>
                 </div>
                 <form name="sentMessage" id="contactForm" novalidate>
                   <div class="row">
@@ -375,31 +287,30 @@ function App() {
                     <p class="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+                  <button type="submit" class="btn btn-custom btn-lg">Envíar</button>
                 </form>
               </div>
             </div>
             <div class="col-md-3 col-md-offset-1 contact-info">
               <div class="contact-item">
-                <h3>Contact Info</h3>
-                <p><span><i class="fa fa-map-marker"></i> Address</span>4321 California St,<br/>
-                  San Francisco, CA 12345</p>
+                <h3>Contacto</h3>
+                <p><span><i class="fa fa-map-marker"></i> Direc</span>
+                  San Francisco Solano</p>
               </div>
               <div class="contact-item">
-                <p><span><i class="fa fa-phone"></i> Phone</span> +1 123 456 1234</p>
+                <p><span><i class="fa fa-phone"></i> Wp</span> 1137637464</p>
               </div>
               <div class="contact-item">
-                <p><span><i class="fa fa-envelope-o"></i> Email</span> info@company.com</p>
+                <p><span><i class="fa fa-envelope-o"></i> Email</span> rosebeautybar@info.com</p>
               </div>
             </div>
             <div class="col-md-12">
               <div class="row">
                 <div class="social">
                   <ul>
+                    <h3>¡Seguinos en las redes!</h3>
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/rose_beauty.bar/"><i class="fa fa-instagram"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -409,7 +320,7 @@ function App() {
         
         <div id="footer">
           <div class="container text-center">
-            <p>&copy; 2020 Interact. Design by <a href="http://www.templatewire.com" rel="nofollow">Shaems</a></p>
+            <p>&copy; 2020. Design by <a href="http://www.templatewire.com" rel="nofollow">Shaems</a></p>
           </div>
         </div>
         <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 

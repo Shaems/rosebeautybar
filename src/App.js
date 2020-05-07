@@ -5,6 +5,13 @@ import './css/bootstrap.css';
 import './fonts/font-awesome/css/font-awesome.css';
 import './App.css';
 import imgabout from './img/pestaña.jpg'
+import img1 from './img/img1.jpg'
+import img2 from './img/img2.jpg'
+import img3 from './img/img3.jpg'
+import img4 from './img/img4.jpg'
+import img5 from './img/img5.jpg'
+import img6 from './img/img6.jpg'
+import asesoria from './img/asesor.jpg'
 
 function App() {
   return (
@@ -52,7 +59,7 @@ function App() {
                     <h1>Pro Lash Lifting<span></span></h1>
                     <p>WORKSHOP</p>
                     <p>¡Vas a aprender como lograr un lifting perfecto y como armar tu negocio!</p>
-                    <a href="#features" class="btn btn-custom btn-lg page-scroll">Más info</a> </div>
+                    <a href="https://wa.me/5491153240431?text=Hola%20quiero%20unirme%20al%20workshop%20de%20Pro%20Lash%20Lifting!%20Quiero%20más%20info%20:)" class="btn btn-custom btn-lg page-scroll">Más info</a> </div>
                 </div>
               </div>
             </div>
@@ -88,7 +95,7 @@ function App() {
                         </p> 
                         <p>Hasta 3 cuotas sin interés</p>
                       </div>
-                      <a href="#features" class="btn btn-custom btn-lg page-scroll" style={{paddingleft: 200 }}>¡Unirme al workshop!</a>
+                      <a href="https://wa.me/5491153240431?text=Hola%20me%20interesa%20el%20workshop%20de%20Pro%20Lash%20Lifting!" class="btn btn-custom btn-lg page-scroll" style={{paddingleft: 200 }}>¡Unirme al workshop!</a>
                     </div>
                   </div>
                 </div>
@@ -157,85 +164,23 @@ function App() {
               <div class="portfolio-items">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                   <div class="portfolio-item">
-                    <div class="hover-bg"> <a href=".img/about.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+                    <div class="hover-bg"> <a href=".img/about.jpg" data-lightbox-gallery="gallery1">
+                      <img src={img5} class="img-responsive" alt="Project Title"/> </a> </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                   <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+                    <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" data-lightbox-gallery="gallery1">
+                      <img src={img3} class="img-responsive" alt="Project Title"/> </a> </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                   <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+                    <div class="hover-bg"> <a href="img/portfolio/03-large.jpg"  data-lightbox-gallery="gallery1">
+                      <img src={img4} class="img-responsive" alt="Project Title"/> </a> </div>
                   </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="portfolio-item">
-                    <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-                      <div class="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
-                  </div>
-                </div>
+            
               </div>
             </div>
           </div>
@@ -246,6 +191,7 @@ function App() {
             <div class="section-title text-center">
               <h2>Asesoría Online</h2>
               <p>¿En que consiste? Por un año vas a poder cominicarte para lo que necesites. Si te surgieron dudas sobre el procediminto de lifting, además de tener los videos para que los veas las veces que quieras, vas a poder consultarlo directamente con una profesional. También te vamos a ayudar a potenciar y mejorar tu negocio si te sentis estancada, no se te ocurren ideas y demás :)</p>
+              <img src={asesoria} class="img-responsive" alt=""/>
             </div>
           </div>
         </div>
@@ -265,30 +211,26 @@ function App() {
               <div class="row">
                 <div class="section-title">
                   <h2>¡Contactanos!</h2>
-                  <p>Escribinos para recibir más información sobre este workshop</p>
+                  <p>Escribinos por whatsapp recibir más información sobre este workshop</p>
                 </div>
-                <form name="sentMessage" id="contactForm" novalidate>
+              {/*  <form name="sentMessage" id="contactForm" novalidate>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" id="name" class="form-control" placeholder="Name" required="required"/>
-                        <p class="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input type="email" id="email" class="form-control" placeholder="Email" required="required"/>
+                        <input type="text" id="name" class="form-control" placeholder="Nombre" required="required"/>
                         <p class="help-block text-danger"></p>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-custom btn-lg">Envíar</button>
-                </form>
+                  <div id="success"></div> */}
+                  <a href="https://wa.me/5491153240431?text=Hola%20quiero%20unirme%20al%20workshop%20de%20Pro%20Lash%20Lifting!%20Quiero%20más%20info%20:)">
+                    <button class="btn btn-custom btn-lg">Envíar mensaje</button>
+                  </a>
+                {/*</form> */}
               </div>
             </div>
             <div class="col-md-3 col-md-offset-1 contact-info">
@@ -320,7 +262,7 @@ function App() {
         
         <div id="footer">
           <div class="container text-center">
-            <p>&copy; 2020. Design by <a href="http://www.templatewire.com" rel="nofollow">Shaems</a></p>
+            <p>&copy; 2020. Design by <a href="#" rel="nofollow">Shaems</a></p>
           </div>
         </div>
         <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
